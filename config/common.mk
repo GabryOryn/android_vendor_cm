@@ -79,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/cm/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/cm/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh \
+    vendor/cm/prebuilt/common/bin/81-xposed.sh:system/addon.d/81-xposed.sh \
     vendor/cm/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
 # Backup Services whitelist
